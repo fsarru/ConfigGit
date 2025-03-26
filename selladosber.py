@@ -9,3 +9,4 @@ sellado_sfb = round((monto_deuda/divisor2)+ alicuota - monto_deuda,)
 
 
 print(f"Engage: {sellado_eng} SFB: {sellado_sfb}")
+print("La diferencia es: " , sellado_eng-sellado_sfb,)
